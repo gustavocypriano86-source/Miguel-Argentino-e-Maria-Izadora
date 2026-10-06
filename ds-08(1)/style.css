@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101522;
+    color: white;
+    padding: 30px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    background-color: #1b2233;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #d6c27a;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #bfc5d6;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.poster {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+    border-radius: 8px;
+}
+
+section {
+    background-color: #252d40;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #d6c27a;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+strong {
+    color: white;
+}
+
+.elenco p {
+    margin-bottom: 5px;
+}
+
+.botao {
+    display: block;
+    width: 200px;
+    margin: 25px auto 0;
+    padding: 12px;
+
+    background-color: white;
+    color: black;
+
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #ddd;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .poster {
+        width: 250px;
+    }
+
+    .botao {
+        width: 100%;
+    }
+}
